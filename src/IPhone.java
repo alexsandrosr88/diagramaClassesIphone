@@ -1,4 +1,4 @@
-public class IPhone implements Tela, AparelhoTelefonico,NavegadorDaInternet, ReprodutorMusical {
+public class IPhone implements AparelhoTelefonico,NavegadorDaInternet, ReprodutorMusical {
     private String imei;
     private Boolean emligacao;
     private Boolean ligado;
@@ -31,11 +31,11 @@ public class IPhone implements Tela, AparelhoTelefonico,NavegadorDaInternet, Rep
         System.out.println("Celular bloqueado!");
     }
 
-    public void aumentarVolume(){
+    public void botaoAumentarVolume(){
         volume++;
         System.out.println("Volume aumentado!");
     }
-    public void diminuirVolume(){
+    public void botaoDiminuirVolume(){
         volume++;
         System.out.println("Volume aumentado!");
     }
@@ -60,28 +60,27 @@ public class IPhone implements Tela, AparelhoTelefonico,NavegadorDaInternet, Rep
         System.out.println("Bluetooth desativado!");
     }
 
-    public void ativarBotaoHome(){
+    public void botaoHome(){
         System.out.println("Você retornou para a tela inicial!");
         botaoHome = false;
     }
 
 
-    @Override
-    public void deslizarParaCima() {
+    public void movimentoDeslizarParaCima() {
         System.out.println("Objetos deslizando para cima.");
     }
 
-    @Override
-    public void deslizarParaBaixo() {
+
+    public void movimentoDeslizarParaBaixo() {
         System.out.println("Objetos deslizando para baixo.");
     }
 
-    @Override
+
     public void movimentoPinçaAberto() {
         System.out.println("Zoom aumentado.");
     }
 
-    @Override
+
     public void movimentoPinçafechado() {
         System.out.println("Zoom diminuído.");
     }
