@@ -9,15 +9,14 @@ Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma
 [Lançamento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8)
 
 
+# Diagrama de classes
+
+<p align="center">
+<img src="/imagens/classes.png" alt="diagramadeclasses"><br>
+</p>
+
 # Ferramentas e tecnologias utilizadas
 
 - Java 17
 - Intellij IDEA
 - Astah 9.1
-
-
-# Diagrama de classes
-
-<p align="center">
-<img src="/imagens/classes.png" alt="hierarchy-of-collection-framework-in-java"><br>
-</p>
